@@ -5,10 +5,11 @@ body {
 }
 
 h1 {
-	text-align: center;
+	text-align:center;
 	color: blue;
-	font-family: 'DancingScriptRegular';
+	font-family:'DancingScriptRegular';
 	font-size: 400%;
+
 }
 
 p {
