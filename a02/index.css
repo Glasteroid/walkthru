@@ -50,8 +50,10 @@
 }
 
 img {
- margin-left: 5px;
- margin-top:10px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
  }
 
 body {
