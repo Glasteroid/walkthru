@@ -9,12 +9,24 @@
 				overflow: auto;}
 			#nav, #feature, #footer {
 				margin: 1%;}
-			.column1, .column2, .column3 {
+			.column1 {
+				background-color: #7CB9E8
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
+			
+			.column2 {
+				background-color: #32de84
+				width: 31.3%;
+				float: left;
+				margin: 1%;}	
+			
 			.column3 {
+				background-color: #452c63
 				margin-right: 0%;}
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
 			li {
 				display: inline;
 				padding: 0.5em;}
