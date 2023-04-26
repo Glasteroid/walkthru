@@ -41,5 +41,8 @@
              background-size:contain;
              background-position: center;
              background-repeat:no-repeat;}
-            h1{}
+            p {
+	     font-family: 'FanwoodTextRegular';
+             font-weight: normal;
+	     font-style: normal;}
 
