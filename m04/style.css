@@ -19,7 +19,6 @@
 				display: inline;
 				padding: 0.5em;}
 			#nav, #footer {
-				background-color: pink;
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
@@ -45,4 +44,7 @@
 	     font-family: 'FanwoodTextRegular';
              font-weight: normal;
 	     font-style: normal;}
-
+	    #nav{
+             background-color: white;}
+	    #footer{
+             background-color: black;}
