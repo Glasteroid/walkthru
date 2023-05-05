@@ -1,4 +1,4 @@
-let person = prompt("Please enter your name", "");
+let person = prompt("Please enter a number between 0-10", "");
 var table = person;             // Unit of table
 var operator = 'addition'; // Type of calculation
 var i = 1;                 // Set counter to 1
