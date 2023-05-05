@@ -11,7 +11,11 @@
       <section id="blackboard"></section>
     </section>
     <script src="example.js">
-      let person = prompt("Please enter a number between 0 and 10", "");
+      let person = prompt("Please enter your name", "Harry Potter");
+      if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+      }
     </script>
   </body>
 </html>
