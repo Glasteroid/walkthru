@@ -1,3 +1,4 @@
+let person = prompt("Please enter your name", "");
 var table = person;             // Unit of table
 var operator = 'addition'; // Type of calculation
 var i = 1;                 // Set counter to 1
