@@ -123,3 +123,5 @@ li{ font-size: 14px; }
 img {
   width: 50%;
 }
+
+#topmenu ul li a {text-align:center;} 
