@@ -56,3 +56,28 @@ rLine +="</p>";
 
 document.getElementById("downRight").innerHTML = rLine;
 }
+
+function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
+var rLine ="";
+for (i=pHeight;i<1;i--){
+rLine +="<p>";
+//Create each line on the Rhombus
+for(j=0;j<=i;j++){
+
+rLine +="<span style='color:" + "white" + ";'>" + pSymbol +"</span>";
+
+}
+  
+if (j%2)
+//even
+rLine +="<span style='color:" + pColorEven + ";'>" + pSymbol +"</span>";
+else
+//odd
+rLine +="<span style='color:" + pColorOdd + ";'>" + pSymbol +"</span>";
+rLine +="</p>";
+// console.log(rLine);
+
+}
+
+document.getElementById("upLeft").innerHTML = rLine;
+}
