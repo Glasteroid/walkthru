@@ -4,6 +4,7 @@
 // var symbol ="*";
 
 function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
+upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 upRight(pHeight, pColorEven, pColorOdd, pSymbol);
 downRight(pHeight, pColorEven, pColorOdd, pSymbol);
 
