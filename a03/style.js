@@ -60,7 +60,7 @@ document.getElementById("downRight").innerHTML = rLine;
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol){
 var rLine ="";
-for (i=pHeight;i<1;i--){
+for (i=pHeight - 1;i<0;i--){
 rLine +="<p>";
 //Create each line on the Rhombus
 for(j=0;j<=i;j++){
