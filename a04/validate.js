@@ -76,4 +76,15 @@ function validateCity() {
   else 
     validCity = true;
   return (validCity);
-}  
+}
+
+function validateZipCode() {
+  var validZipcode = false;
+  var zipcode = document.getElementById("zipcode").value;
+  var country = document.getElementById("country").value;
+  if (country === "USA" && zipcode.length > 5)
+    errorMessages += "<p>Must be living in United States and input must only be a maximum of 5 digits</p>";
+  else
+    validZipcode = true; 
+  return (validZipcode);
+}
