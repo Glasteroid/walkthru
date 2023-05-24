@@ -25,7 +25,7 @@ function validateEmail() {
   var atpos = userEmail.indexOf("@");
   var dotpos = userEmail.lastIndexOf(".");
   if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
-    errorMessages = "<p>Invalid email</p>";
+    errorMessages += "<p>Invalid email</p>";
   else
     return true;
 }
@@ -33,7 +33,7 @@ function validateEmail() {
 function validatePhone() {
   var phone = document.getElementById("phone").value;
   if (isNaN(phone) || phone.length >15 || phone===null || phone==="")
-    errorMessages = "<p>Invalid phone number </p>";
+    errorMessages += "<p>Invalid phone number </p>";
   else
     return true; 
 } 
