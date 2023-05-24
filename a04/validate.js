@@ -60,10 +60,20 @@ function validatePassword() {
   
 function validateAddress() {
   var validAddress = false;
-  var password = document.getElementById("password").value;
-  if (firstname==="null" || firstname==="" || firstname.length > 20)
-    errorMessages += "<p>The password is required and cannot be greater than 7 characters</p>";
+  var address = document.getElementById("address").value;
+  if (address==="null" || address==="")
+    errorMessages += "<p>The address is required</p>";
   else 
-    validAddress;
-  return (validatePassword);
+    validAddress = true;
+  return (validAddress);
+}  
+
+function validateCity() {
+  var validCity = false;
+  var city = document.getElementById("city").value;
+  if (city==="null" || city==="")
+    errorMessages += "<p>The city is required</p>";
+  else 
+    validCity = true;
+  return (validCity);
 }  
