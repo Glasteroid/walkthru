@@ -43,5 +43,4 @@ function validateForm() {
 
   document.getElementById("errorMessages").innerHTML = errorMessages; // Display the error messages
 
-  return errorMessages === ""; // Return true if there are no error messages, indicating a valid form
-}
+  return errorMessages; // Return true if there are no error messages, indicating a valid form
