@@ -88,3 +88,6 @@ function validateZipCode() {
     validZipcode = true; 
   return (validZipcode);
 }
+
+document.getElementById("errorMessages").innerHTML = errorMessages;
+return (validateFirstName() && validateLastName() && validateEmail() && validatePhone() && validateUsername() && validatePassword() && validateAddress() && validateCity() && validateZipCode());
