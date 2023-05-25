@@ -89,5 +89,7 @@ function validateZipCode() {
   return (validZipcode);
 }
 
-document.getElementById("errorMessages").innerHTML = errorMessages;
-return (validateFirstName() && validateLastName() && validateEmail() && validatePhone() && validateUsername() && validatePassword() && validateAddress() && validateCity() && validateZipCode());
+function validateForm() {
+  document.getElementById("errorMessages").innerHTML = errorMessages;
+  return (validateFirstName() && validateLastName() && validateEmail() && validatePhone() && validateUsername() && validatePassword() && validateAddress() && validateCity() && validateZipCode());
+}
