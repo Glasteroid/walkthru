@@ -76,6 +76,9 @@ function validateForm() {
       errorMessages += "<p>Zipcode must be a maximum of 5 digits</p>";
     } 
   }
+  else {
+    errorMessages += "<p>Must live in thr United States</p>"
+  }
   
     document.getElementById("errorMessages").innerHTML = errorMessages;
     return (validFirstname && validLastname &&  validemail && validphone && validUsername && validPassword && validAddress && validCity && validZipcode);
