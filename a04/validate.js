@@ -69,7 +69,7 @@ function validateForm() {
     validCity = true;
   }
   if (country === "USA") {
-    if (zipcode.length > 5) {
+    if (zipcode.length <= 5) {
       validZipcode = true;
     }
   }
