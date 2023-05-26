@@ -77,5 +77,5 @@ function validateForm() {
     validZipcode = false;
   }
     document.getElementById("errorMessages").innerHTML = errorMessages;
-    return (validFirstname && validLastname &&  validemail && validphone && validUsername && validPassword && validAddress && validCity);
+    return (validFirstname && validLastname &&  validemail && validphone && validUsername && validPassword && validAddress && validCity && validZipcode);
 }
