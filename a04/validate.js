@@ -17,20 +17,21 @@ function validateForm() {
   var address = document.getElementById("address").value;
   var validCity = false;
   var city = document.getElementById("city").value;
+  var country = document.getElementById("country").value;
+  var validZipcode = false;
+  var zipcode = document.getElementById("zipcode").value;
   if (firstname==="null" || firstname==="" || firstname.length > 20) {
     errorMessages += "<p>The firstname is required and cannot be greater than 20 characters</p>";
   }
   else {
     validFirstname = true;
   }
-  document.getElementById("errorMessages").innerHTML = errorMessages;
   if (lastname==="null" || lastname==="" || lastname.length > 50) {
     errorMessages += "<p>The lastname is required and cannot be greater than 50 characters</p>";
   }
   else {
     validLastname = true;
   }
-  document.getElementById("errorMessages").innerHTML = errorMessages;
   if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=userEmail.length) {
     errorMessages = "<p>Invalid email</p>";
   }
@@ -66,6 +67,14 @@ function validateForm() {
   }
   else {
     validCity = true;
+  }
+  if (country === "USA") {
+    if (zipcode.length > 5) {
+      validZipcode = true;
+    }
+  }
+  else {
+    validZipcode = false;
   }
     document.getElementById("errorMessages").innerHTML = errorMessages;
     return (validFirstname && validLastname &&  validemail && validphone && validUsername && validPassword && validAddress && validCity);
