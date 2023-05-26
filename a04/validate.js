@@ -72,10 +72,11 @@ function validateForm() {
     if (zipcode.length <= 5) {
       validZipcode = true;
     }
+    else {
+      errorMessages += "<p>Must be a maximum of 5 digits</p>";
+    } 
   }
-  else {
-    errorMessages += "<p>Must be in the United States to enter zipcode and be a maximum of 5 digits</p>";
-  }
+  
     document.getElementById("errorMessages").innerHTML = errorMessages;
     return (validFirstname && validLastname &&  validemail && validphone && validUsername && validPassword && validAddress && validCity && validZipcode);
 }
