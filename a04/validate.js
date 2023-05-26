@@ -17,7 +17,7 @@ function validateForm() {
   var address = document.getElementById("address").value;
   var validCity = false;
   var city = document.getElementById("city").value;
-  var country = document.getElementById("country").value;
+  var country = document.getElementById("Country").value;
   var validZipcode = false;
   var zipcode = document.getElementById("zipcode").value;
   if (firstname==="null" || firstname==="" || firstname.length > 20) {
