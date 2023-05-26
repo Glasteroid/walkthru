@@ -73,7 +73,7 @@ function validateForm() {
       validZipcode = true;
     }
     else {
-      errorMessages += "<p>Must be a maximum of 5 digits</p>";
+      errorMessages += "<p>Zipcode must be a maximum of 5 digits</p>";
     } 
   }
   
