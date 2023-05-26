@@ -77,7 +77,7 @@ function validateForm() {
     } 
   }
   else {
-    errorMessages += "<p>Must live in thr United States</p>"
+    errorMessages += "<p>Must live in the United States</p>"
   }
   
     document.getElementById("errorMessages").innerHTML = errorMessages;
