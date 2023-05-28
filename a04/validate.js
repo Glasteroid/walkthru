@@ -86,7 +86,7 @@ function validateForm() {
     } 
   }
   else {
-    errorMessages += "<p>Must live in the United States</p>"
+    errorMessages += "<p>Must live in the United States to enter zipcode</p>"
     document.getElementById("errorMessages").innerHTML = errorMessages;
   }
     return (validFirstname && validLastname &&  validemail && validphone && validUsername && validPassword && validAddress && validCity && validZipcode);
