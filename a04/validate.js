@@ -1,4 +1,5 @@
 function validateForm() {
+  var errorMessages = "";
   var validFirstname=false;
   var firstname = document.getElementById("firstname").value;
   var validLastname=false;
