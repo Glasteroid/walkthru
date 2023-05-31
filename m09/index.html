@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width">
   <title>Module 09 Assignment</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <script src="event.js" type="text/javascript"></script>
+  <script src="event.js" type="text/javascript">
+    window.addEventListener("click", () => {
+    console.log("You knocked?");
+  });
+  </script>
 </head>
 <body>
   <h1>Click anywhere...</h1>
-  <button onclick="event.stopPropagation()">Clean</button>
+  <button>Clean</button>
 </body>
 </html>
