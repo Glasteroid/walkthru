@@ -1,4 +1,3 @@
-function myfunc() {
     var  mybutton = document.querySelector("button");
     mybutton.addEventListener("click", function(event) {
 
@@ -19,4 +18,3 @@ function myfunc() {
         dot.style.top = (event.pageY - 4) + "px";
         document.body.appendChild(dot);
       });
-}
