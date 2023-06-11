@@ -25,5 +25,5 @@ function validateForm() {
     validComment = true;
   }
     document.getElementById("errorMessages").innerHTML = errorMessages;
-    return (validName && validSubject &&  validComment);
+    return (validName && validSubject && validComment);
 }
