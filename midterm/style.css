@@ -125,3 +125,7 @@ img {
 }
 
 #topmenu ul li a {text-align:center;} 
+
+#errorMessages{
+color:red;
+}
