@@ -5,7 +5,7 @@ function validateForm() {
   var validSubject=false;
   var subject = document.getElementById("subject").value;
   var validComment = false;
-  var comment = document.getElementById("commment").value;
+  var comment = document.getElementById("comment").value;
   if (name==="null" || name==="") {
     errorMessages += "<p>The name field is required.</p>";
   }
