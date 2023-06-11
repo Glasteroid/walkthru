@@ -12,13 +12,13 @@ function validateForm() {
   else {
     validName = true;
   }
-  if (subject==="null" || subject==="" ||) {
+  if (subject==="null" || subject==="") {
     errorMessages += "<p>The subject is required.</p>";
   }
   else {
     validSubject = true;
   }
-  if (comment==="null" || comment==="" ||) {
+  if (comment==="null" || comment==="") {
     errorMessages += "<p>The comment is required.</p>";
   }
   else {
