@@ -70,11 +70,11 @@ function validateForm() {
     validCity = true;
   }
   if (country === "USA") {
-    if (zipcode.length <= 5) {
+    if (city!=="null" && city!=="" && zipcode.length <= 5) {
       validZipcode = true;
     }
     else {
-      errorMessages += "<p>Zipcode must be a maximum of 5 digits</p>";
+      errorMessages += "<p>Zipcode is required and must be a maximum of 5 digits</p>";
     } 
   }
   else {
