@@ -70,7 +70,7 @@ function validateForm() {
     validCity = true;
   }
   if (country === "USA") {
-    if (city!=="null" && city!=="" && zipcode.length <= 5) {
+    if (zipcode!=="null" && zipcode!=="" && zipcode.length <= 5) {
       validZipcode = true;
     }
     else {
